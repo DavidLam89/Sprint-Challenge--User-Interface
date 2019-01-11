@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
+
+img.header {
+    margin: 10px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,6 +118,45 @@ p {
     justify-content: space-evenly;
 }
 
+.middle-content .boxes .box.box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background-color: gold;    
+}
+
+.middle-content .boxes .box.box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background-color: dodgerblue;
+}
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
