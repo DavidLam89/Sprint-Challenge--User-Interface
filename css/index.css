@@ -85,6 +85,7 @@ nav a {
 }
 
 img.header {
+    width: 100%;
     margin: 10px 0;
 }
 
@@ -234,4 +235,16 @@ footer nav a {
 
 .letswork {
     padding: 30px 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    nav {
+        flex-wrap: wrap;   
+    }
+    .card img {
+        width: 100%;
+    }
 }
